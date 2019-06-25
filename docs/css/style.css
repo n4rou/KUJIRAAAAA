@@ -4,18 +4,18 @@
 body {
 	margin: 0 0 0 0;
 	padding: 0 0 0 0;
-	background-color: #000000;
+	background-color: #FFFFFF;
 }
 .wrapper {
 	margin: 0 auto 0 auto;
 	width: 900px;
 }
 h2 {
-	color:  #FFFFFF;
+	color: #000000;
 	font-size: 18px;
 	border-bottom-width: 2px;
 	border-bottom-style: dotted;
-	border-bottom-color:  #FFFFFF;
+	border-bottom-color: #4F4E3F;
 	margin-top: 20px;
 	margin-right: 0px;
 	margin-bottom: 20px;
@@ -29,16 +29,16 @@ p {
 	line-height: 160%;
 }
 a:link {
-	color: #FFFFFF;
+	color:#58402E;
 }
 a:visited {
-	color: #FFFFFF;
+	color:#994C00;
 }
 a:hover {
-	color: #FFFFFF;
+	color: #F1BB93;
 }
 a:active {
-	color: #FFFFFF;
+	color: #4E3813;
 }
 h1 {
 	margin: 30px 0 30px 0;
@@ -73,8 +73,14 @@ img {
 	color: #FFFFFF;
 	text-decoration: none;
 }
+#nav_spe li a:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+    -webkit-box-shadow: 0px 0px #FF9E00;
+    box-shadow: 0px 0px #FF9E00;
+}
 #nav li a:active {
-	color: #ffffff;
+	color: #FFFFFF;
 	text-decoration: none;
 }
 
@@ -85,7 +91,7 @@ img {
 	margin-top: 30px;
 	padding:20px 0 20px 0;
 	font-size: smaller;
-	color:  #FFFFFF;
+	color: #58402E;
 }
 
 /* 個別のスタイル */
@@ -107,17 +113,17 @@ img {
 }
 table.info {
 	border-collapse: collapse;
-	border: 1px solid  #FFFFFF;
+	border: 1px solid #58402E;
 }
 table.info th, table.info td {
 	padding: 8px 8px 8px 8px;
-	border: 1px solid  #FFFFFF;
+	border: 1px solid #58402E;
 	text-align: left;
 	vertical-align: middle;
 }
 table.info th {
-	background-color:  #FFFFFF;
-	color:  #FFFFFF;
+	background-color: #58402E;
+	color: #58402E;
 }
 
 /* menu.html */
@@ -148,7 +154,7 @@ table.menu_all td.photo {
 	margin: 20px 0;
 	text-align: right;
 	font-size: 16px;
-	color:  #FFFFFF;
+	color: #58402E;
 }
 .menu_right p {
 	text-align: right;
@@ -158,27 +164,4 @@ table.menu_all td.photo {
 /* access.html */
 div.map {
 	text-align: center;
-}
-
-/* contact.html */
-form div {
-	padding:12px;
-	border-bottom: 1px dashed  #FFFFFF;
-}
-select {
-	width: 30em;
-}
-label {
-	color:  #FFFFFF;
-}
-input[name=subject] {
-	width:30em;
-}
-textarea {
-	width: 30em;
-	height: 6em;
-}
-input[type=submit] {
-	margin: 20px 12px;
-	width: 30em;
 }
